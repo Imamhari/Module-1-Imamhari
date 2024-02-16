@@ -4,74 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>wood</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <div>
-            <h1>website khusus kerajinan kayu</h1>
-            <img src="assets/logo.jpg" alt="logo website" width="30%">
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-        </div>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#Home">Home</a>
-                </li>
-                <li>
-                    <a href="#Galeri">Galeri</a>
-                </li>
-                <li>
-                    <a href="#Info">Info</a>
-                </li>
-                <li>
-                    <a href="#Kontak">Kontak</a>
-                </li>
-            </ul>
+        <nav class="navbar">
+            <div class="image-logo">
+                <img src="assets/logo.jpg" alt="logo website" width="13%">
+            </div>
+            <div class="nav-list">
+                <a href="index.html">Home</a>
+                <a href="#Galeri">Galeri</a>
+                <a href="#Info">Info</a>
+                <a href="kontak.html">Kontak</a>
+            </div>
         </nav>
     </header>
     <main>
-        <article>
-            <h2>masih bingung isinya</h2>
-            <figure>
-                <img src="assets/asbak kayu.jpg" alt="asbak" width="30%">
-                <img src="assets/jam kayu.jpg" alt="jam dinding" width="30%">
-                <img src="assets/vespa kayu.jpg" alt="miniatur vespa" width="30%">
-            </figure>
-        </article>
-        <form action>
-            <p>Jika ingin costum silahkan isi form dibawah ini:</p>
-            <section>
-                <div>
-                    <label for="input-name">Nama :</label>
-                    <input type="text" placeholder="isi nama anda">
-                </div>
+        <article class="container">
+                <h1>WELCOME!! 😁</h1>
                 <br>
-                <div>
-                    <label for="numberphone">Nomor hp :</label>
-                    <input type="number" placeholder="isi nomor hp anda">
-                </div>
-                <br>
-                <div>
-                    <label for="input-name">Alamat:</label>
+                <p class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                <h2>Trending..!!👇</h2>
+            <figure class="top-card">
+                <div class="card">
+                    <img src="assets/asbak kayu.jpg" alt="asbak" width="75%">
+                    <h3>Asbak mang samsul</h3>
                     <br>
-                    <textarea id="w3review" name="w3review" rows="4" cols="50" placeholder="isikan alamat anda disini"></textarea>
+                    <p class="text-img">Asbak antik buatan mang samsul untuk kaum muda yang suka bergaul</p>
                 </div>
-                <div>
-                    <p>Apakah suka dengan website ini:</p>
-                    <input type="radio" id="yes" name="fav_language" value="yes">
-                    <label for="html">Ya</label><br>
-                    <input type="radio" id="no" name="fav_language" value="no">
-                    <label for="css">Tidak</label><br>
+                <div class="card">
+                    <img src="assets/jam kayu.jpg" alt="jam dinding" width="75%">
+                    <h3>Jam</h3>
+                    <br>
+                    <p class="text-img">Jam jam apa yang buah? "jambu" <br>
+                        ...krik krik</p>
                 </div>
-                <div>
-                    <input type="submit" value="submit">
+                <div class="card">
+                    <img src="assets/vespa kayu.jpg" alt="miniatur vespa" width="75%">
+                    <h3>Vespa Dilan</h3>
+                    <br>
+                    <p class="text-img">Dilan naik ini, sebelum jadi artis. <br>
+                        Asli..! ✌️
+                    </p>
                 </div>
-            </section>
-        </form>
+            </figure>
+            <br>
+            <h2>Kunjungi Galeri kami untuk melihat produk menarik lainnya</h2>
+        </article>
     </main>
     <footer>
-        <p>website e-commerce khusus untuk jual-beli kerajinan kayu</p>
-        <p>dibuat tanggal 9 february 2024</p>
+            <h6>website e-commerce khusus untuk jual-beli kerajinan kayu <br>
+                dibuat tanggal 9 february 2024</h6>
     </footer>
 </body>
 </html>

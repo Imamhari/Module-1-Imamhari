@@ -7,4 +7,20 @@ Website ini dibuat dengan maksud agar para pengusaha ataupun kolektor kerajinan 
 ## Logo website
 ![gambar logo](./assets/logo.jpg) 
 
+## Navbar
+Isi navbar: 
+- Logo
+- Home
+- Galeri
+- Info
+- Kontak
+
+*__hanya Home dan Kontak yang berisi page__
+
+
+## Link Web
+
+
+
+
 
