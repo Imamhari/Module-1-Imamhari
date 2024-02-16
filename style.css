@@ -13,7 +13,7 @@ body{
 .navbar{
     height: 90px;
     width: 100%;
-    background-color: rgb(105, 63, 63);
+    background-color: white;
     display: flex;
     justify-content: space-between;
     border-bottom: 2px solid grey;
